@@ -1,1 +1,1 @@
-export { default as TextComponent } from "./components/TextComponent";
+export { default as TextComponent } from "./TextComponent";
