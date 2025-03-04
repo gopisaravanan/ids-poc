@@ -11,7 +11,7 @@ const Button: React.FC<ButtonProps> = ({ children, onClick }) => {
       onClick={onClick}
       style={{
         padding: "8px 16px",
-        backgroundColor: "#007bff",
+        backgroundColor: "#388e3c",
         color: "#fff",
         border: "none",
         borderRadius: "4px",
