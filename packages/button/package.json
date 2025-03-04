@@ -1,19 +1,24 @@
 {
-    "name": "ids-button",
-    "version": "1.0.0",
-    "description": "A reusable button component",
-    "main": "dist/index.js",
-    "module": "dist/index.esm.js",
-    "types": "dist/index.d.ts",
-    "files": [
-      "dist"
-    ],
-    "scripts": {
-      "build": "tsup src/index.tsx --dts --format esm,cjs",
-      "test": "vitest"
-    },
-    "peerDependencies": {
-      "react": ">=18.0.0 <20.0.0",
-      "react-dom": ">=18.0.0 <20.0.0"
-    }
+  "name": "ids-button",
+  "version": "1.0.0",
+  "description": "A reusable button component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "tsup src/index.tsx --dts --format esm,cjs",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0 <20.0.0",
+    "react-dom": ">=18.0.0 <20.0.0"
   }
+}
