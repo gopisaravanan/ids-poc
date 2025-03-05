@@ -1,5 +1,6 @@
 {
-    "extends": "../../tsconfig.json",
+    // "extends": "../../tsconfig.json",
+    "extends": "ids-typescript-config/react-library.json",
     "compilerOptions": {
       "outDir": "dist",
       "rootDir": "src"

@@ -32,6 +32,10 @@ importers:
       react-dom:
         specifier: '>=18.0.0 <20.0.0'
         version: 19.0.0(react@19.0.0)
+    devDependencies:
+      ids-typescript-config:
+        specifier: workspace:*
+        version: link:../typescript-config
 
   packages/text:
     dependencies:
@@ -41,6 +45,12 @@ importers:
       react-dom:
         specifier: '>=18.0.0 <20.0.0'
         version: 19.0.0(react@19.0.0)
+    devDependencies:
+      ids-typescript-config:
+        specifier: workspace:*
+        version: link:../typescript-config
+
+  packages/typescript-config: {}
 
 packages:
 

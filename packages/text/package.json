@@ -17,6 +17,9 @@
     "build": "tsup src/index.tsx --dts --format esm,cjs",
     "test": "vitest"
   },
+  "devDependencies": {
+    "ids-typescript-config": "workspace:*"
+  },
   "peerDependencies": {
     "react": ">=18.0.0 <20.0.0",
     "react-dom": ">=18.0.0 <20.0.0"
