@@ -1,6 +1,6 @@
 {
   "name": "ids-text-v2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A reusable text component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
