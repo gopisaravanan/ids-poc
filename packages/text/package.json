@@ -1,6 +1,6 @@
 {
   "name": "ids-text-v2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A reusable text component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -18,7 +18,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "ids-typescript-config": "workspace:*"
+    "ids-typescript-config-v2":"1.0.0"
   },
   "peerDependencies": {
     "react": ">=18.0.0 <20.0.0",
