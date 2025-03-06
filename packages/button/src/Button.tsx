@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/tailwind.css'
 
 export interface ButtonProps {
   children: React.ReactNode;
@@ -8,15 +9,8 @@ export interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ children, onClick }) => {
   return (
     <button
-      onClick={onClick}
-      style={{
-        padding: "8px 16px",
-        backgroundColor: "#e90c17",
-        color: "#fff",
-        border: "none",
-        borderRadius: "4px",
-        cursor: "pointer",
-      }}
+    className="px-4 py-2 bg-pink-600 text-white border-none rounded-md cursor-pointer"
+    onClick={onClick}
     >
       {children}
     </button>
