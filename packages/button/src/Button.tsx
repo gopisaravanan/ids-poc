@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/tailwind.css'
+// import '../styles/tailwind.css'
 
 export interface ButtonProps {
   children: React.ReactNode;
