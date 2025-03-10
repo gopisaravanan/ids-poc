@@ -1,6 +1,6 @@
 {
   "name": "ids-button-v2",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "type": "module",
   "exports": {
     ".": {
@@ -44,9 +44,6 @@
     "vite-plugin-lib-inject-css": "^2.2.1"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.12",
-    "ids-typescript-config-v2": "1.0.1",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.12"
+    "ids-typescript-config-v2": "1.0.1"
   }
 }
