@@ -44,7 +44,7 @@
     "vite-plugin-lib-inject-css": "^2.2.1"
   },
   "dependencies": {
-    "build": "^0.1.4",
-    "ids-typescript-config-v2": "1.0.1"
+    "ids-typescript-config-v2": "1.0.1",
+    "publish": "^0.6.0"
   }
 }
