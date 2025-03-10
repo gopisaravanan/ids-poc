@@ -4,7 +4,7 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/lib/main.d.ts",
+      "types": "./dist/main.d.ts",
       "default": "./dist/my-lib.js"
     }
   },
@@ -44,6 +44,7 @@
     "vite-plugin-lib-inject-css": "^2.2.1"
   },
   "dependencies": {
+    "build": "^0.1.4",
     "ids-typescript-config-v2": "1.0.1"
   }
 }
