@@ -1,6 +1,6 @@
 {
   "name": "ids-button-v2",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "type": "module",
   "exports": {
     ".": {
